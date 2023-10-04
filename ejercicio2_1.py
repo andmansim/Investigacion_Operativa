@@ -1,3 +1,8 @@
+'''
+Variante 1: Supongamos ahora que Asier valora exactamente igual las horas dedicadas 
+a estudiar que las dedicadas a divertirse. ¿Cuál sería ahora la solución óptima?
+
+'''
 import sympy as sym
 from sympy import symbols
 from sympy.plotting import plot
