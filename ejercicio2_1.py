@@ -14,5 +14,5 @@ Z2 = "14-x"
 Z3 = "13-x"
 x = symbols('x')
 plot(f1, f2, f3, Z1, Z2, Z3, (x, -1, 15))
-#El area optima es la parte de abajo de la naranja, la azul y la verde --> colorear en un pdf
+#unica
 #Solución: x2 = 4, x1= 5, para mantener la diferencia de 1 entre x1 y x2

@@ -14,3 +14,4 @@ Z3 = "(13-x)/2"
 x = symbols('x')
 plot(f1, f2, Z1, Z2, Z3, (x, -1, 15))
 #La solución no está acotada al no tener horas máximas de estudio, como mucho podríamos interpretar como las horas maximas 24h que es lo que dura un día. 
+#no acotada
