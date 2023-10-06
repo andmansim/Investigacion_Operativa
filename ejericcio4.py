@@ -65,10 +65,10 @@ plot(f1, f2, f3, f4, z1, (x, 0, 1000))
 #Si, si cogemos x1= 450 y x2 = 260, donde seguimos opteniendo 4900 de beneficio pero están más equilibradas las producciones
 
 #c) Calcular Z, x1 y x2 para el mejor plan de producción sin Zapper
-#La solución es x1 = 600, x2 = 0, Z = 4800
+#La solución es x2 = 0, x1 = 450, Z = 3600
 
 #d) Calcular Z, x1 y x2 para el mejor plan de producción sin Space Ray
-#La solución es x1 = 0, x2 = 450, Z = 2250
+#La solución es x1 =0, x2 = 600, Z = 3000
 
 #e) ¿x1 = 100; x2 = 150 es una solución factible? ¿Por qué?
 # Sí, dado que está en el área de soluciones factibles 
