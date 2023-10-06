@@ -41,6 +41,12 @@ Horas: 3 x1 + 4 x2 <= 2400
 Restricciones: x1 + x2 <= 800, x1 - x2 <= 450
 Dinero a maximizar: 8 x1 + 5 x2 = 4900 --> Z = 4900
 
-
-
 '''
+import sympy as sym
+from sympy import symbols
+from sympy.plotting import plot
+#restricciones
+f1 = "(1200-2*x)/1" # 2x1 + x2 <= 1200 
+f2 = "(2400-3*x)/4" # 3x1 + 4x2 <= 2400 
+f3 = '800-x' # x1 + x2 <= 800 
+f4 = 'x-450' # x1 - x2 <= 450
