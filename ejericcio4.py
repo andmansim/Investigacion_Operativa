@@ -1,4 +1,5 @@
 '''
+Enunciado:
 La industria de juguetes “Galaxia” produce dos tipos de juguetes:
     • Space Ray --> x1
     • Zapper --> x2
@@ -17,6 +18,16 @@ El plan de producción actual se establece mediante los siguientes criterios:
       a Space Ray (8 € de utilidad por docena). --> 8 x1 
     • Usar la menor cantidad de recursos para producir Zappers, porque estos dejan una 
       menor utilidad (5 € de utilidad por docena). --> 5 x2
+
+Se pide:
+a) Emplear el método gráfico para visualizar las restricciones. Calcular Z, x1 y x2 para el 
+plan de producción actual. (3 puntos)
+b) ¿Se puede hacer mejor? ¿Cómo? (4 puntos)
+c) Calcular Z, x1 y x2 para el mejor plan de producción sin Zapper (1 punto)
+d) Calcular Z, x1 y x2 para el mejor plan de producción sin Space Ray (1 punto)
+
+
+Solución:
 El plan de producción actual es, por tanto:
     • Space Rays = 550 docenas --> 1 x1 = 550
     • Zappers = 100 docenas --> 1 x2 = 100
@@ -30,11 +41,6 @@ Horas: 3 x1 + 4 x2 <= 2400
 Restricciones: x1 + x2 <= 800, x1 - x2 <= 450
 Dinero a maximizar: 8 x1 + 5 x2 = 4900 --> Z = 4900
 
-Se pide:
-a) Emplear el método gráfico para visualizar las restricciones. Calcular Z, x1 y x2 para el 
-plan de producción actual. (3 puntos)
-b) ¿Se puede hacer mejor? ¿Cómo? (4 puntos)
-c) Calcular Z, x1 y x2 para el mejor plan de producción sin Zapper (1 punto)
-d) Calcular Z, x1 y x2 para el mejor plan de producción sin Space Ray (1 punto)
+
 
 '''
