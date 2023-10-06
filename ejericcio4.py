@@ -36,6 +36,8 @@ Las variables de decisión son:
     • x1 = Producción de Space Rays (en docenas por semana)
     • x2 = Producción de Zappers (en docenas por semana)
 
+Space Ray --> x1
+Zapper --> x2
 Plático: 2 x1 + x2 <= 1200
 Horas: 3 x1 + 4 x2 <= 2400
 Restricciones: x1 + x2 <= 800, x1 - x2 <= 450
@@ -46,7 +48,28 @@ import sympy as sym
 from sympy import symbols
 from sympy.plotting import plot
 #restricciones
-f1 = "(1200-2*x)/1" # 2x1 + x2 <= 1200 
-f2 = "(2400-3*x)/4" # 3x1 + 4x2 <= 2400 
-f3 = '800-x' # x1 + x2 <= 800 
-f4 = 'x-450' # x1 - x2 <= 450
+f1 = "(1200-2*x)/1" # 2x1 + x2 <= 1200 -- azul, para abajo
+f2 = "(2400-3*x)/4" # 3x1 + 4x2 <= 2400 -- naranja, para abajo
+f3 = '800-x' # x1 + x2 <= 800 -- verde, para abajo
+f4 = 'x-450' # x1 - x2 <= 450 --rojo, para arriba
+#función a maximizar
+z1 = '(4900-8*x)/5' # 8x1 + 5x2 = 4900
+
+x = symbols('x')
+plot(f1, f2, f3, f4, z1, (x, 0, 1000))
+
+#a) Emplear el método gráfico para visualizar las restricciones. Calcular Z, x1 y x2 para el plan de producción actual. (3 puntos)
+#Solución:fotografía
+
+#b) ¿Se puede hacer mejor? ¿Cómo? (4 puntos)
+#Si, si cogemos x1= 450 y x2 = 260, donde seguimos opteniendo 4900 de beneficio pero están más equilibradas las producciones
+
+#c) Calcular Z, x1 y x2 para el mejor plan de producción sin Zapper
+
+#d) Calcular Z, x1 y x2 para el mejor plan de producción sin Space Ray
+
+#e) ¿x1 = 100; x2 = 150 es una solución factible? ¿Por qué?
+# Sí, dado que está en el área de soluciones factibles 
+
+#f) ¿x1 = 500; x2 = 150 es una solución factible? ¿Por qué? 
+#Sí, dado que está en el área de soluciones factibles
