@@ -31,4 +31,5 @@ z2 = '30-2*x'
 z3 = '40-2*x'
 
 x = symbols('x')
-plot(f1, f2,z1, z2, z3, (x, -1, 15))
+plot(f1, f2, z1, z2, z3,(x, 0, 15), show=False, legend=True)
+plot(f1, f2, z1, z2, z3,(x, -15, 0), show=False, legend=True)
